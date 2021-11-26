@@ -7,7 +7,14 @@
 
 			// Programmiere hier die Funktion calc(number)
 			function calc (celsius) {
-                return celsius
+                var ausgabe;
+                if (celsius < 20) {
+                    ausgabe = "Es ist kalt.";
+                } else {
+                    ausgabe = "Es ist warm.";
+                }
+
+                return ausgabe;
             }
 
 
