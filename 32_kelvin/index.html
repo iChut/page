@@ -22,8 +22,9 @@
                 } else {
                     ausgabe = ausgabe + " Es ist warm.";
                 }
-                
-               
+                if (celsius < 5) {
+                    ausgabe = ausgabe + " Es ist saukalt.";
+                }
 
 
                 return ausgabe;
