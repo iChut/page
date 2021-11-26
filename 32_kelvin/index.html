@@ -9,13 +9,18 @@
 			function calc (celsius) {
                 var ausgabe;
                 var kelvin;
+               
+               
                 celsius = parseFloat(celsius)
                 kelvin = celsius + 273.15;
 
+
+                ausgabe = kelvin
+
                 if (celsius < 20) {
-                    ausgabe = "Es ist kalt.";
+                    ausgabe = ausgabe + "Es ist kalt.";
                 } else {
-                    ausgabe = "Es ist warm.";
+                    ausgabe = ausgabe + "Es ist warm.";
                 }
                 
                 ausgabe = kelvin + ausgabe;
