@@ -7,7 +7,14 @@
 
 			// Programmiere hier die Funktion calc(number)
 			function calc(anzahl) {
-				return anzahl
+				var gesamtpreis;
+                var ausgabe;
+
+
+                gesamtpreis = anzahl * 399.99;
+                ausgabe = "Es wurden " + anzahl + " Laptops für " + gesamtpreis + " Euro verkauft.";
+
+                return ausgabe;
 			}
 			
 			function clicked() {
